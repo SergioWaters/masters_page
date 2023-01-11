@@ -1,0 +1,45 @@
+.about {
+  padding: 40px;
+  margin: 0 0 -100px 0;
+  border-radius: 0px $curves $curves 0px;
+  position: relative;
+  top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100px;
+  background-color: #222;
+  z-index: 1000;
+
+  &::before {
+    display: block;
+    content: "";
+    border-bottom-left-radius: $curves;
+    top: -$curves;
+    left: 0;
+    background-color: transparent;
+    box-shadow: -15px 15px 0px 15px #222;
+    position: absolute;
+    width: $curves;
+    height: $curves;
+    z-index: 1;
+  }
+
+  &::after {
+    display: block;
+    content: "";
+    border-top-left-radius: $curves;
+    bottom: -$curves;
+    left: 0;
+    background-color: transparent;
+    box-shadow: -15px -15px 0px 15px #222;
+    position: absolute;
+    width: $curves;
+    height: $curves;
+    z-index: 1;
+  }
+
+  .about__logo {
+    fill: #fff;
+  }
+}

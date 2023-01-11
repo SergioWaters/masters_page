@@ -1,0 +1,122 @@
+.slider__box {
+  background-color: #f4f4f4;
+  position: relative;
+  padding: 60px 0px 60px 0px;
+}
+
+.slider {
+  min-width: 0px;
+  font-family: "sf-pro-display";
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.slider__pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.slider__pagination .slick-dots {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.slider__pagination .slick-dots li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider__pagination .slick-dots li.slick-active {
+  transition: .5s;
+}
+
+.slider__pagination .slick-dots li button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  font-size: 0;
+  border: none;
+  transition: .5s;
+}
+
+.slider__pagination .slick-dots li button:hover,
+.slider__pagination .slick-dots li.slick-active button {
+  transition: .5s;
+  box-shadow: 0px 2px 10px 3px #22222266;
+}
+
+.slider__pagination .slick-dots li:nth-child(1) button {
+  background-image: url(../img/wear_icon/hoodie.png);
+}
+
+.slider__pagination .slick-dots li:nth-child(2) button {
+  background-image: url(../img/wear_icon/sweatshort.png);
+}
+
+.slider__pagination .slick-dots li:nth-child(3) button {
+  background-image: url(../img/wear_icon/t-shirt.png);
+}
+
+.slider__pagination .slick-dots li:nth-child(4) button {
+  background-image: url(../img/wear_icon/trousers.png);
+}
+
+.slider__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  list-style: none;
+  transition: 0.5s;
+  min-height: 450px;
+
+  &:hover {
+    transition: 0.5s;
+    box-shadow: 0 2px 10px #22222266;
+  }
+
+  .slider__card__img {
+    border-radius: 15px;
+    width: 100%;
+  }
+
+  .slider__card__title {
+    font-family: "sf-pro-display";
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+  }
+}
+
+.tshirt {
+  background-image: url(../img/wear_icon/hoodie.png);
+}
+
+.sweatshirt {
+  background-image: url(../img/wear_icon/sweatshort.png);
+}
+
+.hoodie {
+  background-image: url(../img/wear_icon/t-shirt.png);
+}
+
+.jogger {
+  background-image: url(../img/wear_icon/trousers.png);
+}

@@ -380,6 +380,22 @@
   margin: 0px 0px 10px 0px;
 }
 
+.tshirt {
+  background-image: url(../img/wear_icon/hoodie.png);
+}
+
+.sweatshirt {
+  background-image: url(../img/wear_icon/sweatshort.png);
+}
+
+.hoodie {
+  background-image: url(../img/wear_icon/t-shirt.png);
+}
+
+.jogger {
+  background-image: url(../img/wear_icon/trousers.png);
+}
+
 .footer {
   background-color: #222;
   position: relative;
@@ -452,22 +468,6 @@
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-}
-
-.tshirt {
-  background-image: url(../img/wear_icon/hoodie.png);
-}
-
-.sweatshirt {
-  background-image: url(../img/wear_icon/sweatshort.png);
-}
-
-.hoodie {
-  background-image: url(../img/wear_icon/t-shirt.png);
-}
-
-.jogger {
-  background-image: url(../img/wear_icon/trousers.png);
 }
 
 @media (max-width: 450px) {
